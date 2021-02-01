@@ -11,7 +11,7 @@ function getSearch(e) {
 }
 
 async function initialize(city) {
-    let API_URL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=87eac2828250da32166d49f93bcbf215`;
+    let API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=87eac2828250da32166d49f93bcbf215`;
     let weatherObject = await getResponse(API_URL);
     processWeatherData(weatherObject);
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form">
+            <input class="search-input" placeholder="Enter a city" autofocus type="text">
+            <button class="search-button">Search</button>
+        </form>
+
+        <div class="weather-info">
+            <div class="header">
+                <div>
+                    <div class="title"><span class="city"></span>, <span class="country"></span></div>
+                    <div class="description"></div>
+                </div>
+                <div class="toggle-container">
+                    <input class="units-button" type="checkbox" />
+                    <div class="slider round"></div>
+                </div>
+            </div>
+            <div class="main-box">
+                <div class="box-left">
+                    <div class="icon-box"><img class="icon" src="" alt=""></div>
+                    <div class="temperature-box">
+                        <div>
+                            <span class="temperature"></span><span class="unit">°C</span>
+                        </div>
+                        <div class="feels-like">Feels like: <span class="apparent-temperature"></span><span class="unit">°C</span></div>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div>Humidity: <span class="humidity"></span>%</div>
+                    <div>Wind: <span class="wind">232</span> km/h  <span class="wind-direction"></span></div>
+                    <div>Pressure: <span class="pressure"></span> hPa</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./src/index.js" type="module"></script>
+
+</body>
+
+</html>

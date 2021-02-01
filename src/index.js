@@ -96,7 +96,6 @@ function changeUnits() {
     }
 }
 
-
 function getWindDirection(windDeg) {
 
     if ((337.5 < windDeg && windDeg < 360) || (0 < windDeg && windDeg < 22.5)) {

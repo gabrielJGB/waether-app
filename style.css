@@ -5,7 +5,6 @@
 
         body {
             height: 100vh;
-            overflow: hidden;
             background: rgb(18, 30, 87);
             background: linear-gradient(180deg, rgba(18, 30, 87, 1) 0%, rgba(31, 46, 119, 1) 17%, rgba(31, 79, 136, 1) 35%, rgba(35, 121, 156, 1) 56%, rgba(39, 136, 159, 1) 73%, rgba(34, 144, 149, 1) 86%, rgba(51, 162, 159, 1) 100%);
         }
